@@ -6,15 +6,15 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob
 
 cl = TOBY.LINE()
-cl.login(token="EnKlTwi6wKR7eLIMU3i9.2PnOnQMgNRHUYkUzkK6jEq.OhCo5HkmkyBW8kLHjySjFufpEppSsjzl1Vs1e+tJ8vM=")
+cl.login(token="EsiQtk79w4wrjvyupPx7.i9Bg/51omKwkeRUFi/fEHW.gOP61/5TCdFZop0Qe1Q9YKg/FGFOq70wdTADjn+U0E8=")
 cl.loginResult()
 
 ki = TOBY.LINE()
-ki.login(token="EnVdT8uhcAXTwJtytp14.rAX10a6MHCMwuEeiTMBera.Yu4Tlvzyt7Sel3NSE7PpM3UXFcLndK0cEMs5U7sjDFw=")
+ki.login(token="ErTEURf8r0Q47yYGhHud.UdOEshX6i9uwwi7Q0jFYRq.N1Q/AycV1FDx65m13a72/TlzgNpjTfZUD5dN3O2n+FA=")
 ki.loginResult()
 
 ki2 = TOBY.LINE()
-ki2.login(token="EnC93xgdTmK90wlgqdL3.9gFq7ukilvzWBLmJXiPD4W.WhQL1gzcFEQk6AtWbBIkCUqbeB7aCp+YRanmS+LSea4=")
+ki2.login(token="ErOE3aCBrYgJYhi8uDRb.41U3Aprx0Gk/e5ejtsoDgW.btbW+b/o8NUf2aXs6rxDgAN6B7Q//PrkAki5Kf5T3ps=")
 ki2.loginResult()
 
 print u"login success"
@@ -92,8 +92,8 @@ mid = cl.getProfile().mid
 kimid = ki.getProfile().mid
 ki2mid = ki2.getProfile().mid
 Bots = [mid,kimid,ki2mid]
-admsa = ["uda936836a9869eb86ec8ab992a4e8979"]
-admin = ["uda936836a9869eb86ec8ab992a4e8979"]
+admsa = ["u23d6c6fb9d4e32458a12bb9f23e15e87"]
+admin = ["u23d6c6fb9d4e32458a12bb9f23e15e87"]
 
 wait = {
     'contact':False,
